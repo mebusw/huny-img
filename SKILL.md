@@ -48,10 +48,10 @@ allowed-tools: Bash
 
 ## Setting Up
 
-首次使用时，进入目录并安装依赖：
+首次使用时，进入SKILL所在目录并安装依赖：
 
 ```bash
-cd ~/.claude/skills/huny-img
+cd ~/.agents/skills/huny-img
 python3 -m venv ~/.pyenv/versions/py312-huny-img
 source ~/.pyenv/versions/py312-huny-img/bin/activate
 pip install python-dotenv
